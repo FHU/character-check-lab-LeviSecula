@@ -1,6 +1,15 @@
 #Remove pass and complete the code
 def check_character(word, index):
-   pass
+   subject = word[index]
+   if subject.isalpha():
+       return "letter"
+   elif subject.isdigit():
+       return "digit"
+   elif subject.isspace():
+       return "whitespace"
+   else:
+       return "unknown"
+   
 
 if __name__ == '__main__': 
     print(check_character('happy birthday', 2))
