@@ -1,4 +1,4 @@
-#Remove pass and complete the code
+#please work
 def check_character(word, index):
    subject = word[index]
    if subject.isalpha():
